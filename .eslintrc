@@ -1,0 +1,12 @@
+{
+    "root": true,
+    "extends": "airbnb-base",
+    "rules": {
+        "class-methods-use-this": "off",
+        "no-unused-vars": ["error", {
+            "vars": "all",
+            "args": "none",
+            "ignoreRestSiblings": false
+        }]
+    }
+}
